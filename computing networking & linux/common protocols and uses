@@ -30,3 +30,28 @@ Fast Data       → UDP
 Routing         → IP
 Troubleshooting → ICMP
 IP→MAC          → ARP
+
+
+
+Common Ports and their uses
+20 | FTP Data | File transfer data
+21 | FTP Control | File transfer commands
+22 | SSH | Secure remote login
+23 | Telnet | Remote login (insecure)
+25 | SMTP | Sending emails
+53 | DNS | Domain name resolution
+67 | DHCP Server | IP address assignment
+68 | DHCP Client | Receives IP address
+69 | TFTP | Simple file transfer
+80 | HTTP | Web browsing
+110 | POP3 | Receive emails
+123 | NTP | Time synchronization
+143 | IMAP | Email synchronization
+161 | SNMP | Network monitoring
+162 | SNMP Trap | SNMP alerts
+443 | HTTPS | Secure web browsing
+445 | SMB | Windows file sharing
+514 | Syslog | Log messages
+3389 | RDP | Remote Desktop
+
+
