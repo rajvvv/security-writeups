@@ -1,0 +1,32 @@
+HTTP: hyper text transfer protocol | loads website | port - 80 | Application Layer
+HTTPS: http secure | secure web browsing | port - 443 | Application Layer
+FTP: file transfer protocol | uploading and downloading file | port - 20,21 | Application layer
+SFTP: SSH File transfer protocol | secure file transfer | port - 22 | Application layer
+SMTP: simple mail transfer protocol | sending mails | port = 25 | Application Layer
+POP3: post office protocol v3 | downloads emails from servers to device | port 110 | Application Layer
+IMAP: internet messege access protocol | sychronize emails across multiple devices | port 143 | Application layer
+DNS: Domain name service | port 53 | converts domain names into IP addresses | Application layer
+DHCP: Dynamic host configuration protocol | automatically assigns IP, subnet, DNS etc | port 67 68 | Application layer
+TELNET: remote login to devices | problem - sends credentials in plain text NO encryption | port 23 | Application layer
+SSH: secure shell | secure remote accesss - encryption or authentication | port 22 | Application layer 
+SNMP: simple network management protocol | monitor network devices | port 161 162 | Application layer
+TCP: transmission control protocol | reliable communication - error checking | transport layer
+UDP: user datagram protocol | fast communication - no retransmission | ex: VoIP | Transport layer
+IP: internet protocol | provides logical addresses | IPv4, IPv6 | network Layer
+ICMP: internet comtrol messege protocol | diagnostics and error reporting | ex: ping | network layer
+ARP: address resolution protocol | converts IP add to MAC add | data link layer
+
+
+Web Access      → HTTP, HTTPS
+File Transfer   → FTP, SFTP
+Email Send      → SMTP
+Email Receive   → POP3, IMAP
+Name Resolution → DNS
+IP Assignment   → DHCP
+Remote Access   → Telnet, SSH
+Monitoring      → SNMP
+Reliable Data   → TCP
+Fast Data       → UDP
+Routing         → IP
+Troubleshooting → ICMP
+IP→MAC          → ARP
