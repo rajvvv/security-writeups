@@ -1,0 +1,17 @@
+NAS (Network Attached Storage)
+👉 Storage shared as files over a network
+
+PC ──┐
+Laptop ──┼── NAS
+Phone ──┘
+it is used for file sharing, backuops or home media storage
+
+
+
+
+SAN (Storage Area Network)
+👉 Storage shared as disks/drives over a dedicated network
+
+Server ── SAN ── Storage Array
+
+it is used for databases, virtual machines or high performance applications
