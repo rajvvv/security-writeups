@@ -1,0 +1,20 @@
+SSL and TLS are lock for a internet communication
+  You ----> Website
+  Data is plain text
+  ``
+
+with SSL/TLS
+  You ====🔒====> Website
+  Data is encrypted
+
+What is SSL?
+secure socket layer
+this is old protocol which is no longer used
+
+TLS
+Transport layer security
+this is modern security replacement for ssl
+
+advantage - encryption, authentication, integrity
+
+HTTPS = HTTP + TLS
