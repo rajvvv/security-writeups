@@ -1,0 +1,43 @@
+Subnetting is the process of dividing one IP network into smaller logical networks called subnets.
+
+Imagine your college has 200 devices. Instead of keeping all of them in one large IP network, you might divide them into:
+- Subnet 1: Student devices
+- Subnet 2: Administration computers
+- Subnet 3: CCTV cameras
+- Subnet 4: Servers
+Each subnet has its own IP address range.
+-------------------------------------------------------------------------------------------
+Every IPv4 address has 32 bits. For subnetting, those bits are divided into two parts:
+- Network bits: Identify which IP network or subnet the address belongs to.
+- Host bits: Identify an address within that subnet.
+Let's use this example:
+
+192.168.1.10/24
+
+The /24 is called the CIDR prefix length.
+
+It means:
+- 24 bits are network bits.
+- The remaining \(32-24=8\) bits are host bits.
+
+For the ordinary IPv4 subnet 192.168.1.0/24:
+- Network address: 192.168.1.0
+- First usable host: 192.168.1.1
+- Last usable host: 192.168.1.254
+- Broadcast address: 192.168.1.255
+-----------------------------------------------------------------------------------------
+
+The most important formula
+First, calculate host bits:
+H = 32 - prefix
+
+Then calculate usable hosts for a conventional IPv4 subnet:
+2^H - 2
+
+Example: /26
+- Host bits = 32 − 26 = 6
+- Total addresses = 2^6 = 64
+- Usable hosts = 64-2=62
+We subtract two for the network and broadcast addresses. Special cases such as /31 point-to-point links follow different rules.
+-----------------------------------------------------------------------------------------
+
